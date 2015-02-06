@@ -1,8 +1,8 @@
 require('./lib/first-round')
 
-describe('') do
+describe('surfcase') do
 
-  it('') do
-    expect().to eq()
+  it('should change to surfcase') do
+    expect(surfcase("kate")).to eq "KaTe"
   end
 end
